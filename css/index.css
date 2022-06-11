@@ -1,0 +1,285 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+    background-image: url(../img/nino-autismo-caminando-solo.jpg);
+    background-size: cover;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+li {
+   display:flex inline;
+    list-style: none;
+    padding: 10px;
+}
+nav{
+    float:none;
+}
+a {text-decoration: none;
+
+}
+.menu li { position: relative;
+ 
+
+
+}
+.menu >li > a{
+   
+    padding: 15px 15px;
+    color: rgb(6, 4, 8);
+    display: block;
+    position: relative;
+    background-color: rgba(92, 168, 191, 0.374);
+    
+}
+
+    
+
+
+.menu >li >a:hover { 
+    color: rgb(136, 0, 255);
+    transition: all.3s; 
+}
+
+
+
+aside {
+    float: left;
+    background-color: rgba(56, 143, 157, 0.227);
+    min-height: 300px;
+    padding: 10px;
+
+}
+footer {
+    background-color: rgba(65, 129, 148, 0.394);
+    color: rgba(0, 0, 0, 0.376);
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+
+}
+ #section {
+     background-color: rgba(44, 92, 92, 0.302);
+     padding-left: 15px;
+ }
+.article {
+    color: rgb(0, 0, 0);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 30px;
+}
+    #section{
+        float: left;
+        width: 80%;
+        min-height: 500px;
+        padding: 5px;
+        flex-basis: auto;
+
+    }
+    .clearfix {
+        clear:both
+      
+      }
+    
+     
+      .redes-sociales{
+        position:fixed;right:0;
+        top:20px
+
+      }
+
+      .box{
+         display:flex;
+         padding-left: 0cm;
+         width: auto;
+       background-color: rgba(240, 248, 255, 0.487);
+       
+     }
+
+
+
+.picture-test{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background-color: rgba(240, 248, 255, 0.344);
+  margin: 5px;
+padding: 15px;
+grid-gap: 15px;
+}
+
+
+
+
+.imagen-test1{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.imagen-test2{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.imagen-test3{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns:repeat(3,1fr);
+  grid-auto-rows: 150px;
+  background-color: rgba(240, 248, 255, 0.58);
+  grid-gap: 15px;
+  padding: 15px;
+}
+
+.picture1{
+  width: 100%;
+   object-fit: cover;
+   height: 100%;
+}
+.picture2{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+
+.picture3{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+
+.picture4{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.picture5{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.picture6{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.gallery-picture{
+  position:relative
+}
+.gallery-title{
+  position: absolute;
+  bottom: 0;
+  color: rgb(0, 3, 6);
+  background-color: rgba(240, 255, 255, 0.544);
+  width: 100%;
+font-family: cursive;
+}
+
+
+
+html{ font-size: 80.5%;
+
+}
+
+.form{
+  background-color: rgba(69, 153, 153, 0.495);
+  width: 440px;
+  border-radius: 20px;
+  padding: 8px;
+}
+input,textarea{
+  font-size: 13px;
+    margin-bottom: 10px;
+    
+}
+
+textarea{
+  min-width: 100px;
+  max-height: 200px;
+  max-width: 450px;
+}
+#boton{
+  background-color: rgb(91, 149, 152);
+  padding: 10px;
+  border-radius: 20px;
+}
+#boton:hover{
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:320px) {
+  .gallery { display: inline-block;
+
+
+}
+
+.picture-test{
+
+  display: inline-block;
+}
+
+.box{
+  display:inline-block;
+  padding-left: 0cm;
+  width: auto;
+background-color: rgba(240, 248, 255, 0.487);
+
+}
+.gallery-title{
+  position: relative;
+  bottom: 0;
+  color: rgb(0, 3, 6);
+  background-color: rgba(240, 255, 255, 0.544);
+  width: 100%;
+font-family: cursive;
+}
+
+
+
+}
+
+
+@media screen and (max-width:480px) {
+  .gallery {
+
+grid-template-columns:repeat(2,1fr);
+}
+
+.form{
+  width: 100%;
+}
+
+textarea{
+  min-width: 50px;
+  max-height: 100px;
+  max-width: 200px;
+}
+.picture-test{
+
+  grid-template-columns: repeat(2,1fr);
+}
+
+.box{
+  display:inline-block;
+  padding-left: 0cm;
+  width: auto;
+background-color: rgba(240, 248, 255, 0.487);
+
+}
+
+.movie{
+  width: 100%;
+}
+}
