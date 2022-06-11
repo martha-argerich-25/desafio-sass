@@ -130,16 +130,13 @@ grid-gap: 15px;
     background-size: cover;
   }
   
-
-
-
- 
- 
-  
-
-
-
-
+  .btn-primary {
+--bs-btn-color: rgb(238, 233, 233);
+--bs-btn-bg: #2277a9af;
+--bs-btn-border-color: #0d6efd;
+--bs-btn-hover-color: #fff;
+--bs-btn-hover-bg: #0b5ed7;
+--bs-btn-hover-border-color: }
 
 
 .imagen-test1{
