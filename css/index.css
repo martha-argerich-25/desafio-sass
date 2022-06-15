@@ -35,8 +35,9 @@ a {text-decoration: none;
     background-color: rgba(92, 168, 191, 0.374);
     
 }
-
-    
+.title-familia-herramientas{
+  text-align: center;
+}
 
 
 .menu >li >a:hover { 
@@ -98,6 +99,8 @@ footer {
       justify-content: center;
        
      }
+
+    
 
 
 
@@ -252,6 +255,11 @@ textarea{
 
 }
 
+.titulos-secundarios{
+  text-align: center;
+}
+
+
 .picture-test{
 
   display: inline-block;
@@ -259,9 +267,10 @@ textarea{
 
 .box{
   display:inline-block;
-  padding-left: 0cm;
+  padding-left: 0px;
   width: auto;
 background-color: rgba(240, 248, 255, 0.487);
+
 
 }
 .gallery-title{
@@ -271,6 +280,26 @@ background-color: rgba(240, 248, 255, 0.487);
   background-color: rgba(240, 255, 255, 0.544);
   width: 100%;
 font-family: cursive;
+}
+
+aside {
+  float: left;
+  background-color: rgba(56, 143, 157, 0.227);
+  min-height: 100px;
+  padding: 10px;
+  width: 80%;
+
+}
+
+#section{
+  float: left;
+  width: 80%;
+  min-height: 500px;
+  padding: 5px;
+  flex-basis: auto;
+  margin-left: 35px;
+  margin-right: 35px;
+  
 }
 }
 
@@ -286,6 +315,35 @@ grid-template-columns:repeat(2,1fr);
 .form{
   width: 100%;
 }
+
+.title-index{
+  text-align: center;
+}
+
+aside {
+  float: left;
+  background-color: rgba(56, 143, 157, 0.227);
+  min-height: 100px;
+  padding: 10px;
+  width: 80%;
+  margin-left: 35px;
+  margin-right: 35px;
+
+}
+
+
+#section{
+  float: left;
+  width: 80%;
+  min-height: 500px;
+  padding: 5px;
+  flex-basis: auto;
+  margin-left: 35px;
+  margin-right: 35px;
+  
+}
+
+
 
 textarea{
   min-width: 50px;
@@ -309,6 +367,64 @@ background-color: rgba(240, 248, 255, 0.487);
   width: 100%;
 }
 }
+
+@media screen and (max-width:980px) {
+
+  aside {
+    float: left;
+    background-color: rgba(56, 143, 157, 0.227);
+    min-height: 100px;
+    padding: 10px;
+    width: 80%;
+  
+  }
+  
+  .title-index{
+    text-align: center;
+  }
+
+  aside {
+    float: left;
+    background-color: rgba(56, 143, 157, 0.227);
+    min-height: 100px;
+    padding: 10px;
+    width: 80%;
+    margin-left: 35px;
+    margin-right: 35px;
+  
+  }
+
+
+
+
+
+
+  #section{
+    float: left;
+    width: 80%;
+    min-height: 500px;
+    padding: 5px;
+    flex-basis: auto;
+    margin-left: 35px;
+    margin-right: 35px;
+    
+  }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
 @keyframes logo{
   0%{ transform: rotate(0deg);}
   100% {transform: rotate(360deg);}
@@ -329,4 +445,11 @@ background-color: rgba(240, 248, 255, 0.487);
 .imagen-test3:hover{
   transform: scale(1.2);
   transition: transform .6s;
+
+
+
+ 
+
+
+
 }
