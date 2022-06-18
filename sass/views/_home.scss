@@ -1,0 +1,44 @@
+#section {
+    background-color: rgba(44, 92, 92, 0.302);
+    padding-left: 15px;
+    float: left;
+     width: 80%;
+     min-height: 500px;
+     padding: 5px;
+    flex-basis: auto;
+
+    .article {
+        color: rgb(0, 0, 0);
+      margin-top: 15px;
+      margin-bottom: 15px;
+      padding-bottom: 30px;
+    }
+
+    .carousel-inner{
+
+        .carousel-item {
+            height: 85vh;
+            min-height: 100px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;}
+    
+    
+            .carousel-item active{
+    
+                height: 85vh;
+                min-height: 100px;
+                background: no-repeat center center scroll;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+              }
+
+    
+    }
+
+
+}

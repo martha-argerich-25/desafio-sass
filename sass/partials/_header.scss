@@ -1,0 +1,42 @@
+nav{
+    float:none;
+.menu{
+
+    li {
+        display:flex inline;
+         list-style: none;
+         padding: 10px;
+         position: relative;
+
+         a{
+            padding: 15px 15px;
+            color: rgb(6, 4, 8);
+            display: block;
+            position: relative;
+            background-color: rgba(92, 168, 191, 0.374);
+            text-decoration: none;
+
+
+            &:hover { 
+                color: rgb(136, 0, 255);
+                transition: all.3s; }
+            
+        }
+
+     }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}

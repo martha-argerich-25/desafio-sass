@@ -1,0 +1,29 @@
+.picture-test{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: rgba(240, 248, 255, 0.344);
+    margin: 5px;
+  padding: 15px;
+  grid-gap: 15px;
+
+
+  .imagen-test1{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  .imagen-test2{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  
+  .imagen-test3{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+
+
+
+  }

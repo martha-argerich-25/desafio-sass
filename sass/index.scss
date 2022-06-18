@@ -1,0 +1,15 @@
+/*misc*/
+
+@import './misc/variables';
+@import './misc/normalize';
+@import './misc/mixins';
+
+/*PARTIALS*/
+@import './partials/header';
+@import './partials/footer';
+/*VIEWS*/ 
+@import './views/home';
+@import './views/contacto';
+@import './views/diagnostico';
+@import './views/familia';
+@import './views/queeselautismo';

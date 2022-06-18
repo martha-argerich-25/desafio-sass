@@ -1,0 +1,72 @@
+.btn-primary {
+    --bs-btn-color: rgb(238, 233, 233);
+    --bs-btn-bg: #2277a9af;
+    --bs-btn-border-color: #0d6efd;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: }
+
+    .container {
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        grid-auto-rows: 150px;
+        background-color: rgba(240, 248, 255, 0.58);
+        grid-gap: 15px;
+        padding: 15px;
+
+
+        .gallery-picture{
+            position:relative;
+
+            .gallery-title{
+                position: absolute;
+                bottom: 0;
+                color: rgb(0, 3, 6);
+                background-color: rgba(240, 255, 255, 0.544);
+                width: 100%;
+              font-family: cursive;
+              }
+
+              .picture1{
+                width: 100%;
+                 object-fit: cover;
+                 height: 100%;
+              }
+              .picture2{
+                width: 100%;
+                object-fit: cover;
+                height: 100%;
+              }
+              
+              
+              .picture3{
+                width: 100%;
+                object-fit: cover;
+                height: 100%;
+              }
+              
+              
+              .picture4{
+                width: 100%;
+                object-fit: cover;
+                height: 100%;
+              }
+              
+              .picture5{
+                width: 100%;
+                object-fit: cover;
+                height: 100%;
+              }
+              .picture6{
+                width: 100%;
+                object-fit: cover;
+                height: 100%;
+              }
+
+
+
+          }
+
+
+
+      }
