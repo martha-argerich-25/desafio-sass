@@ -1,29 +1,73 @@
+
+
+
+
+#section{
+  float: left;
+  width: 80%;
+  min-height: 500px;
+  padding: 5px;
+  flex-basis: auto;
+  background-color: rgba(44, 92, 92, 0.302);
+     padding-left: 15px;
+
+
+
+
+
+}
 .picture-test{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    background-color: rgba(240, 248, 255, 0.344);
-    margin: 5px;
-  padding: 15px;
-  grid-gap: 15px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background-color: rgba(240, 248, 255, 0.344);
+  margin: 5px;
+padding: 15px;
+grid-gap: 15px;
 
 
-  .imagen-test1{
-    width: 100%;
+$test:(
+  imagen-test1:'imagen-test1',
+ imagen-test2: 'imagen-test2',
+  imagen-test3:'imagen-test3',
+);
+
+@each $key,$val in $test{
+  .imagen-test--#{$val} {
+    width: 250px;
     object-fit: cover;
     height: 100%;
-  }
-  .imagen-test2{
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
-  }
   
-  .imagen-test3{
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
-  }
+  
+}  
+}
+
+.article{
+  color: rgb(0, 0, 0);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 30px;
+
+  
+}
 
 
 
-  }
+
+
+}
+
+
+
+
+  aside {
+    float: left;
+    background-color: rgba(56, 143, 157, 0.227);
+    min-height: 300px;
+    padding: 10px;}
+
+
+  
+    
+      
+
+  

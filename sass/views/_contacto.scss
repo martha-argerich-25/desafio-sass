@@ -1,8 +1,18 @@
+
+#section{
+  float: left;
+  width: 80%;
+  min-height: 500px;
+  padding: 5px;
+  flex-basis: auto;
+  background-color: rgba(44, 92, 92, 0.302);
+     padding-left: 15px;
+
 .form{
     background-color: rgba(69, 153, 153, 0.495);
-    width: 440px;
-    border-radius: 20px;
-    padding: 8px;
+    width: 220px+220;
+    border-radius: 10px+10;
+    padding: 4px+4;
     display: grid;
 
 
@@ -29,5 +39,17 @@
 
       }
 
-
   }
+  .btn-primary {
+    --bs-btn-color: rgb(238, 233, 233);
+    --bs-btn-bg: #2277a9af;
+    --bs-btn-border-color: #0d6efd;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: }
+}
+aside {
+  float: left;
+  background-color: rgba(56, 143, 157, 0.227);
+  min-height: 300px;
+  padding: 10px;}

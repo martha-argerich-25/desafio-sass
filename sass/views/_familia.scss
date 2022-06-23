@@ -1,0 +1,36 @@
+aside {
+    float: left;
+    background-color: rgba(56, 143, 157, 0.227);
+    min-height: 300px;
+    padding: 10px;}
+
+
+    #section{
+        float: left;
+        width: 80%;
+        min-height: 500px;
+        padding: 5px;
+        flex-basis: auto;
+        background-color: rgba(44, 92, 92, 0.302);
+           padding-left: 15px;
+
+           .article {
+            color: rgb(0, 0, 0);
+          margin-top: 15px;
+          margin-bottom: 15px;
+          padding-bottom: 30px;
+        }
+
+        .title-familia-herramientas{
+            text-align: center;
+          }
+
+        
+    }
+
+
+    .card-title {
+     @include sizes (500px,50px,medium);
+
+        }
+      
