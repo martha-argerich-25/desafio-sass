@@ -1,17 +1,12 @@
-#section {
-  background-color: rgba(44, 92, 92, 0.302);
-  padding-left: 15px;
-  float: left;
-   width: 80%;
-   min-height: 500px;
-   padding: 5px;
-  flex-basis: auto;
+
+
+
 
     .container {
         display: grid;
         grid-template-columns:repeat(3,1fr);
         grid-auto-rows: 150px;
-        background-color: rgba(240, 248, 255, 0.58);
+        background-color: rgba(59, 119, 171, 0.58);
         grid-gap: 15px;
         padding: 15px;
 
@@ -34,41 +29,31 @@
                  height: 100%;
               }
               .picture2{
-                width: 100%;
-                object-fit: cover;
-                height: 100%;
+                @extend.picture1;
               }
               
               
               .picture3{
-                width: 100%;
-                object-fit: cover;
-                height: 100%;
+                @extend.picture1;
               }
               
               
               .picture4{
-                width: 100%;
-                object-fit: cover;
-                height: 100%;
+                @extend.picture1;
               }
               
               .picture5{
-                width: 100%;
-                object-fit: cover;
-                height: 100%;
+                @extend.picture1;
               }
               .picture6{
-                width: 100%;
-                object-fit: cover;
-                height: 100%;
+                @extend.picture1;
               }
 
           }
 
         }
 
-      }
+      
 
       aside {
         float: left;
@@ -76,3 +61,7 @@
         min-height: 300px;
         padding: 10px;}
        
+
+
+
+

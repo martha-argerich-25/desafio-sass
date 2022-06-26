@@ -2,20 +2,6 @@
 
 
 
-#section{
-  float: left;
-  width: 80%;
-  min-height: 500px;
-  padding: 5px;
-  flex-basis: auto;
-  background-color: rgba(44, 92, 92, 0.302);
-     padding-left: 15px;
-
-
-
-
-
-}
 .picture-test{
   display: grid;
   grid-template-columns: repeat(3,1fr);
@@ -25,21 +11,29 @@ padding: 15px;
 grid-gap: 15px;
 
 
-$test:(
-  imagen-test1:'imagen-test1',
- imagen-test2: 'imagen-test2',
-  imagen-test3:'imagen-test3',
-);
+.imagen-test1{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.imagen-test2{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
 
-@each $key,$val in $test{
-  .imagen-test--#{$val} {
-    width: 250px;
-    object-fit: cover;
-    height: 100%;
-  
+.imagen-test3{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
   
 }  
-}
+
+
+
+
+
 
 .article{
   color: rgb(0, 0, 0);
@@ -49,13 +43,6 @@ $test:(
 
   
 }
-
-
-
-
-
-}
-
 
 
 

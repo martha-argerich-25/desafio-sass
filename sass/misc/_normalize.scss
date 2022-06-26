@@ -1,6 +1,4 @@
 
- 
-
 *{
     margin: 0;
     padding:0;
@@ -19,4 +17,48 @@
     background-image: url(../img/nino-autismo-caminando-solo.jpg);
     background-size: cover;
   font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+
+h2{
+  color:map-get($map: $color, $key:primary)
+
+}
+
+h2 {
+  font-weight:bold;
+}
+
+h1{
+  font-weight:bold;
+  color:map-get($map: $color, $key:secundary)
+}
+
+.boton-aside{
+ background-color: rgb(47, 106, 106);
+}
+
+
+@keyframes logo{
+  0%{ transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+.logo{
+  animation-name: logo;
+  animation-duration: 4s;
+}
+
+.imagen-test1:hover{
+  transform: scale(1.2);
+  transition: transform .6s;
+}
+.imagen-test2:hover{
+  transform: scale(1.2);
+  transition: transform .6s;
+}
+.imagen-test3:hover{
+  transform: scale(1.2);
+  transition: transform .6s;
+
+
 }
