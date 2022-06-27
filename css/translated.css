@@ -50,6 +50,28 @@ h1 {
   transform: scale(1.2);
   transition: transform .6s; }
 
+@keyframes logo {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+.logo {
+  animation-name: logo;
+  animation-duration: 4s; }
+
+.imagen-test1:hover {
+  transform: scale(1.2);
+  transition: transform .6s; }
+
+.imagen-test2:hover {
+  transform: scale(1.2);
+  transition: transform .6s; }
+
+.imagen-test3:hover {
+  transform: scale(1.2);
+  transition: transform .6s; }
+
 /*PARTIALS*/
 nav {
   float: none; }
