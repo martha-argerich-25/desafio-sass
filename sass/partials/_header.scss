@@ -1,9 +1,16 @@
+
+.header{
+position: relative;
+}
+
+
 nav{
     float:none;
+    
 .menu{
-
+ 
     li {
-        display:flex inline;
+        display:inline-flex;
          list-style: none;
          padding: 10px;
          position: relative;
@@ -27,11 +34,30 @@ nav{
 
 }
   
+}
 
-
-
+.hamburger{
+    display:none;
 
 }
+#hamburger{
+    display:none;
+}
+
+
+#hamburger{
+   
+   opacity: 0;
+     position:absolute;
+     margin-left: 24px;
+     bottom:24px}
+
+
+
+
+
+
+
 
 
 
@@ -41,6 +67,8 @@ nav{
     list-style-type: none;
     right:0;
     top:20px
+    
+
     
     
 

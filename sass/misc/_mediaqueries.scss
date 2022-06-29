@@ -2,9 +2,10 @@
 
 
 @media screen and (max-width:320px) {
-   
-  
-  
+   .menu{
+     display: none;
+   }
+ 
   .container { display: inline-block;
   
       .gallery-picture{
@@ -24,15 +25,32 @@
 
       }
 
-
   }
   
+
+.hamburger{
+  display: block
+}
+
+#hamburger{
+  display: block;
+}
+
+  #hamburger :checked ~ .menu {
+    display:block;
+   
+}
+
+
+
 
   .button{
-    display:inline-block
+    display:inline-block;
+    
+    
   }
   
-
+ 
   
   .titulos-secundarios{
     text-align: center;
@@ -52,8 +70,16 @@
   
   
   }
+  .card-text{
+    font-size:small;
+ }
   
-  
+ 
+.card:hover{
+  transform: scale(1.1);
+  transition: transform .6s;
+}
+
   aside {
     float: left;
     background-color: rgba(56, 143, 157, 0.227);
@@ -83,6 +109,11 @@
   
   
   @media screen and (max-width:480px) {
+
+    .menu{
+      display:none;
+    }
+    
     .container {
   
   grid-template-columns:repeat(2,1fr);
@@ -96,6 +127,15 @@
     text-align: center;
   }
   
+  .hamburger{
+    display:block;
+    
+
+}
+.card-text{
+  font-size:small;
+}
+
   aside {
     float: left;
     background-color: rgba(56, 143, 157, 0.227);
@@ -203,9 +243,13 @@
       text-align: center;
     }
   
-  
-  
-  
-  
   }
   
+  @media screen and (min-width:980px) {
+   .form{
+     margin-left: 270px;
+   }
+   .titulos-secundarios{
+     text-align: center;
+   }
+  }

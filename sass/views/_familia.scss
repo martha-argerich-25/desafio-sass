@@ -4,3 +4,17 @@
   @include sizes (100px,50px,medium);
 
      }
+
+     .card-title{
+        font-weight:bold;
+        font-size: large;
+        width: 100%;
+     }
+     
+.card{
+   height: 850px;
+   
+}
+.card-text{
+   font-size:medium;
+}
