@@ -1,10 +1,8 @@
 
-
+  /*comienzo de media queries 320 */ 
 
 @media screen and (max-width:320px) {
-   .menu{
-     display: none;
-   }
+  
  
   .container { display: inline-block;
   
@@ -27,22 +25,6 @@
 
   }
   
-
-.hamburger{
-  display: block
-}
-
-#hamburger{
-  display: block;
-}
-
-  #hamburger :checked ~ .menu {
-    display:block;
-   
-}
-
-
-
 
   .button{
     display:inline-block;
@@ -80,14 +62,6 @@
   transition: transform .6s;
 }
 
-  aside {
-    float: left;
-    background-color: rgba(56, 143, 157, 0.227);
-    min-height: 100px;
-    padding: 10px;
-    width: 80%;
-  
-  }
  
   
   
@@ -105,14 +79,12 @@
   
   
   
-   /*comeinzo de media queries 480 */ 
+   /*comienzo de media queries 480 */ 
   
   
   @media screen and (max-width:480px) {
 
-    .menu{
-      display:none;
-    }
+   
     
     .container {
   
@@ -136,21 +108,12 @@
   font-size:small;
 }
 
-  aside {
-    float: left;
-    background-color: rgba(56, 143, 157, 0.227);
-    min-height: 100px;
-    padding: 10px;
-    width: 80%;
-    margin-left: 35px;
-    margin-right: 35px;
-  
-  }
   
   .titulos-secundarios{
     text-align: center;
    
   }
+  
   
   
   
@@ -167,6 +130,7 @@
     margin-right: 35px;
     
   }
+  
   
   textarea{
     min-width: 50px;
@@ -194,62 +158,66 @@
 
 
 
-
+  /*comienzo de media queries 980 */ 
 
 
 @media screen and (max-width:980px) {
 
-    aside {
-      float: left;
-      background-color: rgba(56, 143, 157, 0.227);
-      min-height: 100px;
-      padding: 10px;
-      width: 80%;
-    
-    }
+   
     
     .title-index{
       text-align: center;
     }
   
-    aside {
-      float: left;
-      background-color: rgba(56, 143, 157, 0.227);
-      min-height: 100px;
-      padding: 10px;
-      width: 80%;
-      margin-left: 35px;
-      margin-right: 35px;
+  
+  
+  
     
-    }
+#section{
+   
+  float: left;
+  width: 80%;
+  min-height: 505px;
+  padding: 5px;
+  flex-basis: auto;
+  margin-left: 35px;
+  margin-right: 35px;
+}
   
-  
-  
-  
-  
-  
-    #section{
-      float: left;
-      width: 80%;
-      min-height: 500px;
-      padding: 5px;
-      flex-basis: auto;
-      margin-left: 35px;
-      margin-right: 35px;
-      
-    }
-  
+    
+
+
+
     .titulos-secundarios{
       text-align: center;
     }
   
   }
   
+    /*comienzo de media queries 980 */ 
+    
   @media screen and (min-width:980px) {
+
    .form{
-     margin-left: 270px;
+     margin-left: 250px;
+    
    }
    .titulos-secundarios{
      text-align: center;
    }
+  
+
+   #section{
+   
+    
+    width: 70%;
+    min-height: 505px;
+    padding: 5px;
+    margin-left: 160px;
+    margin-right: 35px;
+    
+  }
+    
+
+
   }
