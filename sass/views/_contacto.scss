@@ -1,38 +1,5 @@
 
 
-
-.form{
-    background-color: rgba(69, 153, 153, 0.495);
-    width: 440px;
-    border-radius: 20px;
-    padding: 8px;
-    display: grid;
-   
-
-
-    input,textarea{
-        font-size: 13px;
-          margin-bottom: 10px;
-          
-      }
-
-      textarea{
-        min-width: 100px;
-        max-height: 200px;
-        max-width: 450px;
-      }
-
-      #boton{
-        background-color: rgb(91, 149, 152);
-        padding: 10px;
-        border-radius: 20px;
-
-        &:hover{
-            cursor: pointer;
-          }
-
-      }
-
   
   .btn-primary {
     --bs-btn-color: rgb(238, 233, 233);
@@ -41,4 +8,4 @@
     --bs-btn-hover-color: #fff;
     --bs-btn-hover-bg: #486da5;
     --bs-btn-hover-border-color: }
-}
+

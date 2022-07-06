@@ -16,7 +16,7 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif; }
 
 h2 {
-  color: #116969; }
+  color: rgba(17, 105, 105, 0.563); }
 
 h2 {
   font-weight: bold; }
@@ -65,11 +65,11 @@ nav {
   height: 32px; }
 
 .btn-outline-success {
-  --bs-btn-color: #0b4544;
-  --bs-btn-border-color: #146565;
+  --bs-btn-color: #0b454445;
+  --bs-btn-border-color: #14656580;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #19877c;
-  --bs-btn-hover-border-color: #1a6c5f; }
+  --bs-btn-hover-bg: #19877c66;
+  --bs-btn-hover-border-color: #1a6c5e8d; }
 
 footer {
   background-color: rgba(65, 129, 148, 0.394);
@@ -108,32 +108,13 @@ footer {
     -o-background-size: cover;
     background-size: cover; }
 
-.form {
-  background-color: rgba(69, 153, 153, 0.495);
-  width: 440px;
-  border-radius: 20px;
-  padding: 8px;
-  display: grid; }
-  .form input, .form textarea {
-    font-size: 13px;
-    margin-bottom: 10px; }
-  .form textarea {
-    min-width: 100px;
-    max-height: 200px;
-    max-width: 450px; }
-  .form #boton {
-    background-color: #5b9598;
-    padding: 10px;
-    border-radius: 20px; }
-    .form #boton:hover {
-      cursor: pointer; }
-  .form .btn-primary {
-    --bs-btn-color: rgb(238, 233, 233);
-    --bs-btn-bg: #2277a9af;
-    --bs-btn-border-color: #1d9498;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #486da5;
-    --bs-btn-hover-border-color: ; }
+.btn-primary {
+  --bs-btn-color: rgb(238, 233, 233);
+  --bs-btn-bg: #2277a9af;
+  --bs-btn-border-color: #1d9498;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #486da5;
+  --bs-btn-hover-border-color: ; }
 
 .picture-test {
   display: grid;
@@ -160,6 +141,9 @@ footer {
   margin-top: 15px;
   margin-bottom: 15px;
   padding-bottom: 30px; }
+
+.accordion-body {
+  background-color: rgba(33, 109, 121, 0.666); }
 
 .card-title {
   width: 100px;
