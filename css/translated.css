@@ -19,7 +19,9 @@ h2 {
   color: rgba(17, 105, 105, 0.563); }
 
 h2 {
-  font-weight: bold; }
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 15px; }
 
 h1 {
   font-weight: bold;
@@ -62,7 +64,8 @@ nav {
 
 .iconify {
   width: 32px;
-  height: 32px; }
+  height: 32px;
+  color: #0022ff; }
 
 .btn-outline-success {
   --bs-btn-color: #0b454445;
@@ -143,7 +146,7 @@ footer {
   padding-bottom: 30px; }
 
 .accordion-body {
-  background-color: rgba(33, 109, 121, 0.666); }
+  background-color: rgba(230, 74, 22, 0.666); }
 
 .card-title {
   width: 100px;
@@ -183,6 +186,11 @@ footer {
       object-fit: cover;
       height: 100%; }
 
+.picture-neurociencia {
+  display: flex;
+  background-color: rgba(183, 85, 157, 0.41);
+  border-radius: 20px; }
+
 /* mediaqueries*/
 /*comienzo de media queries 320 */
 @media screen and (max-width: 320px) {
@@ -197,6 +205,8 @@ footer {
         background-color: rgba(240, 255, 255, 0.544);
         width: 100%;
         font-family: cursive; }
+    .container .picture-neurociencia {
+      display: block; }
   .button {
     display: inline-block; }
   .titulos-secundarios {
@@ -236,6 +246,8 @@ footer {
     font-size: small; }
   .titulos-secundarios {
     text-align: center; }
+  .picture-neurociencia {
+    display: block; }
   #section {
     float: left;
     width: 80%;
@@ -271,7 +283,9 @@ footer {
     margin-left: 35px;
     margin-right: 35px; }
   .titulos-secundarios {
-    text-align: center; } }
+    text-align: center; }
+  .picture-neurociencia {
+    display: block; } }
 
 /*comienzo de media queries 980 */
 @media screen and (min-width: 980px) {
